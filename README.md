@@ -1,4 +1,26 @@
-#### Description
+## lopco-omit-empty-csv-worker
+
+Remove lines with empty values from a CSV file.
+
+### Configuration
+
+`delimiter`: Delimiter used in the CSV file.
+
+`ignored_columns`: List of columns where empty vales are permitted.
+
+### Inputs
+
+Type: single
+
+`source_csv`: CSV file.
+
+### Outputs
+
+Type: single
+
+`output_file`: Result CSV file.
+
+### Description
 
     {
         "name": "Omit Empty CSV",
