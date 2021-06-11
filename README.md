@@ -6,7 +6,7 @@ Remove lines with empty values from a CSV file.
 
 `delimiter`: Delimiter used in the CSV file.
 
-`ignored_columns`: List of columns where empty vales are permitted.
+`ignored_columns`: List of columns where empty values are permitted.
 
 ### Inputs
 
