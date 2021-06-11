@@ -24,7 +24,7 @@ dep_instance = os.getenv("DEP_INSTANCE")
 job_callback_url = os.getenv("JOB_CALLBACK_URL")
 input_file = os.getenv("source_csv")
 delimiter = os.getenv("delimiter")
-ignored_columns = set(os.getenv("ignored_columns").split(delimiter))
+ignored_columns = set(os.getenv("ignored_columns").split(delimiter)) if os.getenv("ignored_columns") else set()
 data_cache_path = "/data_cache"
 
 
